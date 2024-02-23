@@ -21,3 +21,4 @@ for(index = 0; index < userPrompt.length; index++){
 console.log("the biggest numb is: " + biggerNumb)
 
 
+/* aggiungere più condizioni per comparare effettivamente i due prompt, e coprire i casi 1 > 2, 2 > 1, 1 = 2 */
