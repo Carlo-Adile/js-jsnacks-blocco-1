@@ -21,6 +21,6 @@ if (firstWord.length > secondWord.length){
 else if(firstWord.length < secondWord.length){
   console.log("the longer word is: " + secondWord)
 }
-else if(firstWord.length == secondWord.length){
-  console.log("both words are equally long")
-}
+  else{
+    console.log("both words are equally long")
+  }
