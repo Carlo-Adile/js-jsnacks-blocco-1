@@ -3,8 +3,8 @@ let second = prompt("write one more number")
 
 const userPrompt = [];
 
-userPrompt.push(first)
-userPrompt.push(second)
+userPrompt.push(parseInt(first, 10))
+userPrompt.push(parseInt(second, 10))
 
 console.log(userPrompt)
 
@@ -19,3 +19,5 @@ for(index = 0; index < userPrompt.length; index++){
 }
 
 console.log("the biggest numb is: " + biggerNumb)
+
+
