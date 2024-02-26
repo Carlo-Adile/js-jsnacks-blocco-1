@@ -10,10 +10,11 @@ for (index = 0; index < 6; index++){
   
   
   if(canAdd % 2 !== 0 && isNaN(canAdd) == false){
-    oddNumbs.push(addNumb);
+    oddNumbs.push(canAdd);
   }
   else{
     console.log(addNumb + " didn't respect the requisite")
   }
 }
+
 console.log("your final collection of odd numbers is: " + oddNumbs + ". you stored a total of " + oddNumbs.length + " odd numbers")
