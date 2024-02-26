@@ -13,7 +13,7 @@ for (index = 0; index < 6; index++){
     oddNumbs.push(addNumb);
   }
   else{
-    console.log(addNumb + " didn't respect the requisite")
+    console.log(canAdd + " didn't respect the requisite")
   }
 }
 console.log("your final collection of odd numbers is: " + oddNumbs + ". you stored a total of " + oddNumbs.length + " odd numbers")
