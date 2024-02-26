@@ -8,14 +8,15 @@ let isNumb = parseFloat(userNumb)
 /* console.log("the cube value is " + (isNumb * isNumb)) */
 
 /* version 2 */
+let showNumb = document.querySelector('.literally_cube');
+let showThis = isNumb;
 
 if (isNaN(isNumb) == false){
   alert("the cube value of your number is " + (isNumb ** 3))
-  let showThis = isNumb;
-  let showNumb = document.querySelector('.literally_cube');
   showNumb.append(showThis)
 }
 else{
+  showNumb.append("nope")
   alert("invalid input, try again")
 }
 
