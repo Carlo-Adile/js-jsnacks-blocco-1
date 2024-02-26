@@ -11,7 +11,11 @@ let isNumb = parseFloat(userNumb)
 
 if (isNaN(isNumb) == false){
   alert("the cube value of your number is " + (isNumb ** 3))
+  let showThis = isNumb;
+  let showNumb = document.querySelector('.literally_cube');
+  showNumb.append(showThis)
 }
 else{
   alert("invalid input, try again")
 }
+

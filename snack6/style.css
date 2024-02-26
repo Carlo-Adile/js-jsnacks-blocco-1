@@ -1,0 +1,11 @@
+
+.literally_cube{
+  position:relative;
+  width:40px;
+  height:40px;
+  top:50%;
+  left:50%;
+  margin:4rem;
+  border: 1px solid black;
+  text-align:center;
+}
