@@ -3,7 +3,7 @@ se è dispari inseriscilo nell’array. */
 
 let oddNumbs = [];
 
-for (index = 0; index < 3; index++){
+for (index = 0; index < 6; index++){
   let addNumb = prompt("add a number, odd numbers will be stored");
   if(addNumb % 2 !== 0){
     oddNumbs.push(addNumb);
