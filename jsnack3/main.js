@@ -10,12 +10,12 @@ for (index = 0; index < 10; index++){
 
 /* made with while loop */
 let sum = 0;
-let index = 0;
+let index = 1;
 
-while(index < 10){
+while(index < 11){
   let number = prompt("add a number");
   let addNumb = parseFloat(number);
   sum += addNumb;
-  console.log(sum)
+  console.log("count number: " + index, "the current sum is: " + sum)
   index++;
 }
