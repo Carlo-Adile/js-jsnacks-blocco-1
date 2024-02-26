@@ -12,4 +12,4 @@ for (index = 0; index < 6; index++){
     console.log(addNumb + " was an even number")
   }
 }
-console.log("your final collection of odd numbers is: " + oddNumbs)
+console.log("your final collection of odd numbers is: " + oddNumbs + ". you stored a total of " + oddNumbs.length + "odd numbers")
