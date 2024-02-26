@@ -7,10 +7,9 @@ for (index = 0; index < 6; index++){
   let addNumb = prompt("add a number, odd numbers will be stored");
 
   let canAdd = parseFloat(addNumb);
-  console.log(canAdd)
   
   
-  if(addNumb % 2 !== 0 && isNaN(addNumb) == false){
+  if(canAdd % 2 !== 0 && isNaN(canAdd) == false){
     oddNumbs.push(addNumb);
   }
   else{
