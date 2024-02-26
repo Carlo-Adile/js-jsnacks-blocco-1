@@ -10,7 +10,7 @@ let isNumb = parseFloat(userNumb)
 /* version 2 */
 
 if (isNaN(isNumb) == false){
-  alert("the cube value is " + (isNumb ** 3))
+  alert("the cube value of your number is " + (isNumb ** 3))
 }
 else{
   alert("invalid input, try again")
