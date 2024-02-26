@@ -10,8 +10,8 @@ let isNumb = parseFloat(userNumb)
 /* version 2 */
 
 if (isNaN(isNumb) == false){
-  console.log("the cube value is " + (isNumb * isNumb))
+  alert("the cube value is " + (isNumb * isNumb))
 }
 else{
-  console.log("invalid number, try again")
+  alert("invalid input, try again")
 }
